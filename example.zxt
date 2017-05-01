@@ -1,0 +1,53 @@
+|<h1>Test fil"e" [i] for !++Ztext</h1> normal text <strong>strong text</strong> |
+
+"italy" is the probably most often used block that has a typo in its name.
+"There can be |normal text| within italy blocks."
+
+|normal| is like its name. It used for |hidden clickable texts| [told ya].
+
+~bold~ is bold text. This it is.
+
+---linethrough---...
+
+__title__ [header 1], first class
+
+___subtitle___ [header 2], second class
+
+____subsubtitle____ [header 3] with a boring(?) name
+
+(++ comment block that can contain other ~processed~ texts too (++ except another comment ^++). ++){
+the inner closing sign is escaped, without the escape it'd be its close and the rest would be normal text}
+
+!++ alinecomm [one liner comments]
+    for one line comment
+(++~another version for alinecomm~++) [that's technically normal block comment with ~bold text~ within it -- and it's also useless, since the alinecomm's formatting has changed] Here can be normal text, yeeee!
+
+``
+code
+it's like the quote block, but it can contain { and } characters too and has fancy monotype font
+``
+
+)( quote block
+with a kinda weird open tag" [Ae. Dschorsaanjo]
+
+.!. Warning .!. [that warning thing should be upper-cased]
+
+?. collapse /// that is collapseable block
+Inner text "will be" [really will be] processed ~as~  ---well--- .?
+
+|alternate| [that is for alternate meanings and also why this markup language was created for]
+
+((It's a link)) [https://github.com/ae-dschorsaanjo]
+
+{the hidden, but you won't see it}
+
+\= Anything can "be" here, it'll be <strong>shown</strong> as is (even the ^ escaping character)
+in a kick-ass monospace font. Useful when you have to write things like html codes, math stuff... =\
+
+<hr>
+
+|Theoretically the Ztext can contains <em>any</em> html too, but sadly it's now got a bug. :(
+F"or exam<b>p"l</b>e in this case. |?.* /// luckily the browsers can handle and corrigate them
+And more luckily I've fixed it. .?
+
+Created by |Ae. Dschorsaanjo| [B. Zolt'n Gorza] in 2017.

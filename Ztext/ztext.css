@@ -1,0 +1,241 @@
+.ztext {
+	text-align: justify;
+	line-height: 150%;
+	/*color: black;*/
+	display: block;
+	word-wrap: break-word;
+	/*font-size: 12pt;*/
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	/* 4 test
+
+	border-width: 1px;
+	border-color: black;
+	border-style: dashed;
+	border-radius: 3px 3px;
+	padding: 10px;
+	margin-bottom: 1em; */
+}
+
+/* Style definitions ------------------- */
+
+/* Italy */
+.ztext span.italy {
+    font-style: italic;
+}
+
+/* Normal */
+.ztext span.normal {
+	font-style: normal;
+}
+
+/* Title */
+.ztext span.title {
+    display: block;
+	/* text-align: center; */
+	font-size: 175%;
+	font-weight: 700;
+	margin: 1em 0 1em 0;
+	color: black;
+	text-transform: capitalize;
+}
+
+/* Subtitle */
+.ztext span.subtitle {
+	display: block;
+	font-size: 160%;
+	font-weight: 600;
+	margin: 1em 0 0.75em 0;
+}
+
+/* Subsubtitle */
+.ztext span.subsubtitle {
+	display: block;
+	font-size: 140%;
+	font-weight: 500;
+	margin: 1em 0 0.5em 0;
+}
+
+/* Bold */
+.ztext span.bold {
+	font-weight: bold;
+}
+
+/* Linethrough */
+.ztext span.linethrough {
+	text-decoration: line-through;
+}
+
+/* Block comment */
+.ztext span.comm {
+	color: #00A000;
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* Inline comment */
+.ztext span.alinecomm {
+	color: #008707;
+	font-weight: 300;
+}
+
+/* Monospace */
+.ztext span.code {
+	display: block;
+	text-align: left;
+	font-family: Hack, "Lucida Console", Monaco, monospace;
+	font-size: 75%;
+	margin-left: 3%;
+	/*padding: 10px 15px 10px 15px;*/
+	padding: 1em 1.5em 1em 1.5em;
+	border-left: 1px solid #BBB;
+	background-color: #EEE;
+	line-height: 2em;
+}
+
+/* Quote block */
+.ztext span.quote {
+	display: block;
+	font-style: italic;
+	margin-left: 10%;
+	margin-right: 27.5%;
+	/*padding: 10px 60px 10px 15px;*/
+	padding: 1em 3em 1em 1.5em;
+	border-left: 1px solid #BBB;
+	background-color: #F3F3F1;
+}
+
+.ztext span.quote>span.from {
+	display: block;
+	/*margin-top: 1em;*/
+	text-align: right;
+}
+
+/* Warning message */
+.ztext span.warning {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	color: #EE0000;
+}
+
+.ztext span.warning>span.text {
+	font-size: 155%;
+	display: block;
+	margin: 1ch 0 1ch 0;
+	text-transform: uppercase;;
+}
+
+.ztext span.warning>span.text::before {
+	content: '!!! ';
+}
+
+.ztext span.warning>span.text::after {
+	content: ' !!!';
+}
+
+.ztext span.warning>span.desc {
+	font-size: 125%;
+	font-weight: 500;
+	display: block;
+	text-transform: uppercase;
+}
+
+/* Alternate */
+.ztext span.alt.iactive {
+	display: none;
+}
+
+/* Interactive */
+.ztext span.iactive {
+	cursor: pointer;
+}
+
+/* Collapseable block */
+.ztext span.coll {}
+
+.ztext span.coll>span.clickcoll {
+	cursor: pointer;
+}
+
+.ztext span.coll>span.collcontent {
+	display: none;
+	background-color: #D3F3D1;
+	text-align: left;
+	margin: 0.5em 1em 0.5em 1em;
+	/*padding: 10px 60px 10px 15px;*/
+	padding: 1em 1em 1em 1em;
+	border-left: 1px solid #BBB;
+}
+
+/* Link */
+.ztext span.link a, .ztext span.link a:visited,
+.ztext span.link a:hover, .ztext span.link a:link {
+	color: #090;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ztext span.link a:hover {
+	font-style: italic;
+}
+
+/* Hidden */
+.ztext span.hidden {
+	color: gray;
+}
+
+/* Asis */
+.ztext span.asis {
+	font-family: Hack, "Lucida Console", Monaco, monospace;
+	font-style: normal;
+}
+
+/* Others ------------------------------ */
+
+.ztext>section {
+	display: block;
+}
+
+.ztext>section.title {
+	text-align: center;
+	margin: 1.5em 0 2.5em 0;
+}
+
+.ztext>section.title h1 {
+	font-size: 200%;
+	color: black;
+}
+
+.ztext>section.title h2 {
+	font-size: 175%;
+	color: #111;
+}
+
+.ztext>section.title h3 {
+	font-size: 160%;
+	color: #222;
+}
+
+.ztext>section.title h4 {
+	font-size: 150%;
+	color: #333;
+}
+
+.ztext a.bm, .ztext a.bm:visited,
+.ztext a.bm:hover, .ztext a.bm:link {
+	font-weight: bold;
+	color: #070;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.ztext a.bm:hover {
+	font-style: italic;
+}
+
+.ztext hr {
+
+	margin: 1em 35% 0em 15%;
+	text-align: center;
+}
