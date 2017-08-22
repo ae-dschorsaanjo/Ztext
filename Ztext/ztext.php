@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Ztext, aka Zoli's text (version 1.0.0)
- * Copyright (C) 2016-2017  B. Zolt'n Gorza
+ * Ztext original (version 1.1.0)
+ * Copyright (C) 2016-2017  B. Zoltán Gorza
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -149,8 +149,8 @@ const BLK_QUOTE = 'qu';
 /** Warning block; it'll be a big ass red sign in the center. */
 const BLK_WARNING = 'wa';
 /**
- * Collapseable block, that is collapseable. In zxt, the basic text and the
- * collapsed are separated by CHR_SEP.
+ * Collapseable block, that is and expandable block. In zxto,
+ * the basic text and the collapsed text are separated by CHR_SEP.
  */
 const BLK_COLLAPSEABLE = 'ca';
 /** Alternate blocks, that's why this markup language for. */
@@ -648,12 +648,12 @@ const PRO_METHOD_TEXT = 't';
  * cloning).
  */
 const PRO_CLEAR_BLOCKS = 'c';
-/** Array for replaces for preprocess. */
+/** Array of replaces for preprocess. */
 const PRO_REPLACE_PRE = array(
     '<q>' => "''",
     "\r" => ''
 );
-/** Array for replaces for finprocess. */
+/** Array of replaces for finprocess. */
 const PRO_REPLACE_FIN = array(
     "''" => '"',
     ">\n<" => '><',
@@ -662,7 +662,7 @@ const PRO_REPLACE_FIN = array(
     '  ' => ' ',
     "\t" => '&nbsp;&nbsp;&nbsp;&nbsp;'
 );
-/** Array for replaces for textprocess. */
+/** Array of replaces for textprocess. */
 const PRO_REPLACE_TEXT = array(
     "''" => '"',
     '""' => '"',
@@ -2125,7 +2125,7 @@ function traverse(&$blockinstance, $text) {
  *
  * @param $fname Filename
  * @param $fdir Directory
- * @param $fext File's extension (default: txt -- nowadays 'zxt' is the
+ * @param $fext File's extension (default: txt -- nowadays 'zxto' is the
  * preferred extension!)
  * @return string A single file's location
  */

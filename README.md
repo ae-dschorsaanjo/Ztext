@@ -1,10 +1,10 @@
-# Ztext
+# Ztext original
 It is a simple markup language, intended for general use. It needs PHP7 and uses Javascript for _clickable blocks_ (but it also can work without Javascript perfectly). Tested in Chromium, Firefox, Konqueror, Lynx and Links2.
 
 # How does it work?
 All you need is the __ztext.php__, __ztext.css__ and __ztext.js__.
 
-It generates HTML or plain text output from a text file (usually a zxt file). During the processing it will split the text into _blocks_.
+It generates HTML or plain text output from a text file (usually a zxto file). During the processing it will split the text into _blocks_.
 
 To get the needed output you can use the __magic functions__ or the __processing functions__. The _processing functions_ gives you relatively raw access to the processing, while the _magic functions_ gives you an easy way to use the processing functions (I recommend this way).
 
@@ -47,8 +47,8 @@ You can read more about the blocks within the [blocks.md](blocks.md).
 
 # Versioning
 For versioning I will use the following patterns:
-- __Major version__ when something breaks _the block's_ backward-compatibility,
-- __Minor version__ when the use of _magic functions_ or _processing functions_ changes (i.e. parameters)
+- __Major version__ when something breaks _the block's_ backward-compatibility
+- __Minor version__ when the use of _magic functions_, _processing functions_ changes (i.e. parameters) or something _changes backward-compatibility_ (e.g. array of replaces)
 - __Patch version__ when everything stays backward-compatible
 
 # Known issues

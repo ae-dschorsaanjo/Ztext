@@ -13,8 +13,8 @@
 		<?php
 			include "Ztext/ztext_editor.php";
 
-			$file = 'example.zxt';
-			$file2 = array('example', '.', '.zxt');
+			$file = 'example.zxto';
+			$file2 = array('example', '.', '.zxto');
 
 			$f = fopen($file, 'r');
 			$text = fread($f, filesize($file));

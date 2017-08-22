@@ -1,3 +1,20 @@
+v1.1.0 (22. 8. 2017)
+-------------------
+
+- Extended the Versioning's text in README
+- The recommended file extension changed to "zxto" due to future plans
+- The block's description now in the blocks.md!
+- "example.zxt" now renamed to "example.zxto"
+- In example.php the *.zxt filenames' extension changed to "zxto"
+- In the LICENSE, the software's name changed to "Ztext original"
+- In the license within the ztext.php, the software's name changed to
+  "Ztext original"
+- The author's (aka my) name changed to its proper writing in ztext.php
+- The repository's name will not change, but from when those formerly mentioned
+  future plans will be published, it will be kept by tradition
+- Other minor changes in texts or comments in various documents
+- The Collapseable block's name will change to Collapsible (but, following the  tradition, the constant's name
+
 v1.0.0 (1. 5. 2017)
 -------------------
 
